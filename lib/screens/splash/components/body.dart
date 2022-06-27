@@ -3,7 +3,7 @@ import 'package:shop_ui/constants.dart';
 import 'package:shop_ui/screens/splash/components/splash_content.dart';
 import 'package:shop_ui/size_config.dart';
 import '../../../components/default_button.dart';
-import '../../sign_in/sign_in_screen .dart';
+import '../../sign_in/sign_in_screen.dart';
 
 class Body extends StatefulWidget {
   const Body({Key? key}) : super(key: key);

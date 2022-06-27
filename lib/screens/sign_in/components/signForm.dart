@@ -69,6 +69,7 @@ class _SignFormState extends State<SignForm> {
                   "Forgot Password",
                   style: TextStyle(
                     decoration: TextDecoration.underline,
+                    color: kPrimaryColor,
                   ),
                 ),
               ),

@@ -13,11 +13,11 @@ class FormError extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: List.generate(errors!.length, (index) => FormErrorText(errors![index]))
+      children: List.generate(errors!.length, (index) => formTextError(errors![index]))
     );
   }
 
-  Row FormErrorText(String error) {
+  Row formTextError(String error) {
     return Row(
         children: [
           SvgPicture.asset(

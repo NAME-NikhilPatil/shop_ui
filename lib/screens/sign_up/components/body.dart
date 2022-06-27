@@ -18,7 +18,9 @@ class Body extends StatelessWidget {
           ),
           child: Column(
             children: [
-              SizedBox(height: SizeConfig.screenHeight*0.02,),
+              SizedBox(
+                height: SizeConfig.screenHeight * 0.02,
+              ),
               Text(
                 "Register Account",
                 style: headingStyle,
@@ -51,7 +53,9 @@ class Body extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: getProportionateScreenHeight(20),),
+              SizedBox(
+                height: getProportionateScreenHeight(20),
+              ),
               const Text(
                 "By continuing you confirm that you agree \nwith our Terms and Conditions",
                 textAlign: TextAlign.center,

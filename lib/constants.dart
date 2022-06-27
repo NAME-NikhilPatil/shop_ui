@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_ui/size_config.dart';
 
-
 const kPrimaryColor = Color(0xFFFF7643);
 const kPrimaryLightColor = Color(0xFFFFECDF);
 const kPrimaryGradientColor = LinearGradient(
@@ -11,7 +10,6 @@ const kPrimaryGradientColor = LinearGradient(
 );
 const kSecondaryColor = Color(0xFF979797);
 const kTextColor = Color(0xFF757575);
-
 const kAnimationDuration = Duration(milliseconds: 200);
 
 final headingStyle = TextStyle(
@@ -47,6 +45,6 @@ final otpInputDecoration = InputDecoration(
 OutlineInputBorder outlineInputBorder() {
   return OutlineInputBorder(
     borderRadius: BorderRadius.circular(getProportionateScreenWidth(21)),
-    borderSide: BorderSide(color: kTextColor),
+    borderSide: const BorderSide(color: kTextColor),
   );
 }

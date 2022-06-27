@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:shop_ui/constants.dart';
 
 ThemeData theme() {
@@ -16,18 +15,18 @@ ThemeData theme() {
 InputDecorationTheme inputDecoration() {
   return InputDecorationTheme(
     floatingLabelBehavior: FloatingLabelBehavior.always,
-    contentPadding: EdgeInsets.symmetric(
+    contentPadding: const EdgeInsets.symmetric(
       horizontal: 42,
       vertical: 20,
     ),
     enabledBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(28),
-      borderSide: BorderSide(color: kTextColor),
+      borderSide: const BorderSide(color: kTextColor),
       gapPadding: 10,
     ),
     focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(28),
-      borderSide: BorderSide(color: kTextColor),
+      borderSide: const BorderSide(color: kTextColor),
       gapPadding: 10,
     ),
   );
@@ -37,7 +36,6 @@ AppBarTheme appbartheme() {
   return const AppBarTheme(
     color: Colors.white,
     elevation: 0,
-   
     iconTheme: IconThemeData(color: Colors.black),
   );
 }

@@ -3,7 +3,7 @@ import 'package:shop_ui/screens/complete_profie/complete_profile_screen.dart';
 import 'package:shop_ui/screens/forgotPassword/forgot_password_screen.dart';
 import 'package:shop_ui/screens/login_success/login_succes_screen.dart';
 import 'package:shop_ui/screens/otp/otp_screen.dart';
-import 'package:shop_ui/screens/sign_in/sign_in_screen%20.dart';
+import 'package:shop_ui/screens/sign_in/sign_in_screen.dart';
 import 'package:shop_ui/screens/sign_up/sign_up_screen.dart';
 // import 'package:shop_ui/screens/cart/cart_screen.dart';
 // import 'package:shop_ui/screens/complete_profile/complete_profile_screen.dart';

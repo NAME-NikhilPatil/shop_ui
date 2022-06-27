@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_ui/routes.dart';
-import 'package:shop_ui/screens/sign_in/sign_in_screen%20.dart';
+import 'package:shop_ui/screens/sign_in/sign_in_screen.dart';
 import 'package:shop_ui/theme.dart';
 
 void main() {

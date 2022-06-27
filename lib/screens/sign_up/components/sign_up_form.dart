@@ -17,7 +17,7 @@ class SignUpFormState extends State<SignUpForm> {
   final _formKey = GlobalKey<FormState>();
   late String email;
   late String password;
-  late String confirm_password;
+  late String confirmpassword;
   final List<String> errors = [];
 
   void addError({String? error}) {
@@ -73,9 +73,9 @@ class SignUpFormState extends State<SignUpForm> {
   TextFormField buildConfPassFormField() {
     return TextFormField(
       obscureText: true,
-      onSaved: (newvalue) => password = confirm_password,
+      onSaved: (newvalue) => password = confirmpassword,
       onChanged: (value) {
-        if (password == confirm_password) {
+        if (password == confirmpassword) {
           removeError(error: kMatchPassError);
         }
         return;
@@ -95,7 +95,7 @@ class SignUpFormState extends State<SignUpForm> {
         labelText: "Confirm Password",
         hintText: "Re-enter your password",
         floatingLabelBehavior: FloatingLabelBehavior.always,
-        suffixIcon: CustomSuffixIcon(
+        suffixIcon: const CustomSuffixIcon(
           svgIcon: "assets/icons/Lock.svg",
         ),
       ),
