@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_ui/routes.dart';
+import 'package:shop_ui/screens/home/home_screen.dart';
 import 'package:shop_ui/screens/sign_in/sign_in_screen.dart';
 import 'package:shop_ui/theme.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme:theme(),
       // home: SplashScreen(),
       // We use routeName so that we dont need to remember the name
-     initialRoute: SignInScreen.routeName,
+     initialRoute: HomeScreen.routeName,
      routes: routes,
     );
   }
